@@ -35,14 +35,14 @@ variable "network" {
 }
 
 variable "haproxy_ip" {
-  default = "10.1.1..50"
+  default = "10.1.1.50"
 }
 
 variable "web_1_ip" {
-  default = "10.1.1..51"
+  default = "10.1.1.51"
 }
 
 variable "web_2_ip" {
-  default = "10.1.1..52"
+  default = "10.1.1.52"
 }
 
