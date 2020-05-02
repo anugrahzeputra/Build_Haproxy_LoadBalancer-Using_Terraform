@@ -1,13 +1,13 @@
 variable "web_1" {
-  default = "a.z.e.p-WEBSERVER-01"
+  default = "YOURNAME-WEBSERVER-01"
 }
 
 variable "web_2" {
-  default = "a.z.e.p-WEBSERVER-02"
+  default = "YOURNAME-WEBSERVER-02"
 }
 
 variable "haproxy_name"{
-  default = "a.z.e.p-HAPROXY"
+  default = "YOURNAME-HAPROXY"
 }
 
 variable "image_1" {
@@ -23,11 +23,11 @@ variable "flavor" {
 }
 
 variable "keypair" {
-  default = "Instance"
+  default = "keypair"
 }
 
 variable "private_key_path" {
-  default = "/latihan/quiz1/deployhaproxy/file/id_rsa"
+  default = "file/id_rsa"
 }
 
 variable "network" {
